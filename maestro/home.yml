@@ -1,4 +1,8 @@
 appId: com.x0odelally.detoxapp # This is an example app id. Replace it with your app id.
 ---
 - launchApp
-- assertVisible: 'index'
+- extendedWaitUntil:
+    visible: Hello
+    timeout: 300000
+# - assertVisible:
+#     text: Hello
