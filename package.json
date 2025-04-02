@@ -11,7 +11,7 @@
     "lint": "expo lint",
     "prebuild": "expo prebuild -p android",
     "build:detox": "bun run prebuild && detox build --configuration android.emu.debug",
-    "test:detox": "bun run prebuild && detox test --configuration android.emu.debug"
+    "test:detox": "detox test --configuration android.emu.debug"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.2",
