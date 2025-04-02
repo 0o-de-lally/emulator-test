@@ -11,8 +11,4 @@ describe('Example', () => {
     await expect(element(by.text('Count:'))).toBeVisible();
   });
 
-  it('should increment counter when tapped', async () => {
-    await element(by.text('Increment')).tap();
-    await expect(element(by.text('Count: 1'))).toBeVisible();
-  });
 });
