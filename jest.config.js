@@ -1,6 +1,4 @@
-config.js
 module.exports = {
-  rootDir: '..',
   testMatch: ['<rootDir>/**/*.spec.js'],
   testTimeout: 120000,
   maxWorkers: 1,

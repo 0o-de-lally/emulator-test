@@ -13,9 +13,6 @@
     "build:detox": "bun run prebuild && detox build --configuration android.emu.debug",
     "test:detox": "bun run prebuild && detox test --configuration android.emu.debug"
   },
-  "jest": {
-    "preset": "jest-expo"
-  },
   "dependencies": {
     "@expo/vector-icons": "^14.0.2",
     "@react-navigation/bottom-tabs": "^7.2.0",
