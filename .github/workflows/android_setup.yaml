@@ -1,3 +1,8 @@
+
+name: emulator setup ci
+on:
+  push:
+    branches: ["**"] # glob pattern to allow slash /
 jobs:
   test:
     runs-on: ubuntu-latest
